@@ -16,7 +16,7 @@ public class Fb_scn2 {
 		// setting up webdriver
 		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 
 //login to facebook
 		driver.get("https://www.facebook.com");
